@@ -1,6 +1,7 @@
 ---
 import { getCollection } from "astro:content";
 import MainLayout from "../layouts/MainLayout.astro";
+import Card from "../components/Card.astro";
 
 // getCollection
 const blogPosts = await getCollection("blog");
@@ -10,7 +11,7 @@ const blogPosts = await getCollection("blog");
 <MainLayout title="Homepage">
 	<h1>Homepage</h1>
 	
-	<h2>Slider Posts</h2>
+	<!-- <h2>Slider Posts</h2>
 	<ul>
 		{
 			blogPosts.filter((post) => post.data.isPinned).map((post) => (
@@ -19,16 +20,18 @@ const blogPosts = await getCollection("blog");
 				</li>
 			))
 		}
-	</ul>
+	</ul> -->
 
-	<h2>Articles</h2>
-	<ul>
+	<main class="container mt-content">
+		<div class="row row-cols-1 row-cols-md-3 g-4">
 		{
 			blogPosts.map((post) => (
-				<li>
-					<a href={`/blog/${post.slug}`}>{post.data.title}</a>
-				</li>
+				<div class="col">
+					{/* <a href={`/blog/${post.slug}`}>{post.data.title}</a> */}
+					<Card post={post} />
+				</div>
 			))
 		}
-	</ul>
+		</div>
+	</main>
 </MainLayout>
