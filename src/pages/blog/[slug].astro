@@ -1,0 +1,26 @@
+---
+import { Image } from "astro:assets";
+import MainLayout from "../../layouts/MainLayout.astro";
+import { getCollection } from "astro:content";
+import windahBatubara from "../../assets/windahBatubara.jpg";
+export const getStaticPaths = async() => {
+  const blogPosts = await getCollection("blog");
+
+  return blogPosts.map((post) => ({
+    params: { slug: post.slug },
+    props: { post },
+  }));
+};
+
+const props = Astro.props;
+const render = await props.post.render();
+---
+
+<MainLayout title="Blog Post">
+  <h1>{props.post.data.title}</h1>
+  <Image src={windahBatubara} alt='Author Image'/>
+  <div>
+    <Image inferSize src={props.post.data.image} alt={props.post.data.image} />
+    <render.Content />
+  </div>
+</MainLayout>
