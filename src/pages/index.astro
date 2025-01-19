@@ -1,7 +1,34 @@
 ---
+import { getCollection } from "astro:content";
 import MainLayout from "../layouts/MainLayout.astro";
+
+// getCollection
+const blogPosts = await getCollection("blog");
+console.log(blogPosts);
 ---
 
-<MainLayout title="Astro">
-	<h1>Astro</h1>
+<MainLayout title="Homepage">
+	<h1>Homepage</h1>
+	
+	<h2>Slider Posts</h2>
+	<ul>
+		{
+			blogPosts.filter((post) => post.data.isPinned).map((post) => (
+				<li>
+					<a href={`/blog/${post.slug}`}>{post.data.title}</a>
+				</li>
+			))
+		}
+	</ul>
+
+	<h2>Articles</h2>
+	<ul>
+		{
+			blogPosts.map((post) => (
+				<li>
+					<a href={`/blog/${post.slug}`}>{post.data.title}</a>
+				</li>
+			))
+		}
+	</ul>
 </MainLayout>
