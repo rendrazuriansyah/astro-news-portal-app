@@ -1,11 +1,11 @@
 ---
-title: 'Tips Meningkatkan Karir di Dunia Kerja yang Kompetitif'
-publishedAt: '2024-04-28T00:00:00.050Z'
-author: 'Erika'
-image: 'https://images.unsplash.com/photo-1533073526757-2c8ca1df9f1c?q=80&w=2370&auto=format&fit=crop'
-category: 'Career'
+title: "Tips Meningkatkan Karir di Dunia Kerja yang Kompetitif"
+publishedAt: "2024-04-28T00:00:00.050Z"
+author: "Rendra"
+image: "https://images.unsplash.com/photo-1533073526757-2c8ca1df9f1c?q=80&w=2370&auto=format&fit=crop"
+category: "Career"
 isPinned: true
-excerpt: 'Maju dalam dunia kerja yang kompetitif membutuhkan strategi dan komitmen yang kuat. Berikut beberapa tips untuk membantu kita meningkatkan karir'
+excerpt: "Maju dalam dunia kerja yang kompetitif membutuhkan strategi dan komitmen yang kuat. Berikut beberapa tips untuk membantu kita meningkatkan karir"
 ---
 
 ## **Tips Meningkatkan Karir di Dunia Kerja yang Kompetitif**

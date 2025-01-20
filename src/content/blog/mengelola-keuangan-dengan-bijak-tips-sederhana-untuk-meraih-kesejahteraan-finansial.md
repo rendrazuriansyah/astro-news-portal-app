@@ -1,11 +1,11 @@
 ---
-title: 'Mengelola Keuangan dengan Bijak: Tips Sederhana untuk Meraih Kesejahteraan Finansial'
-publishedAt: '2024-01-12T00:00:00.050Z'
-author: 'Erika'
-image: 'https://images.unsplash.com/photo-1579621970795-87facc2f976d?q=80&w=2370&auto=format&fit=crop'
-category: 'Finance'
+title: "Mengelola Keuangan dengan Bijak: Tips Sederhana untuk Meraih Kesejahteraan Finansial"
+publishedAt: "2024-01-12T00:00:00.050Z"
+author: "Rendra"
+image: "https://images.unsplash.com/photo-1579621970795-87facc2f976d?q=80&w=2370&auto=format&fit=crop"
+category: "Finance"
 isPinned: false
-excerpt: 'Di dunia yang serba cepat ini, mengelola keuangan dengan bijak merupakan kunci untuk mencapai kesejahteraan finansial. Aku dan teman-teman sering kali dihadapkan pada tantangan dalam mengatur uang, tetapi dengan beberapa tips sederhana, kita dapat mengambil langkah-langkah menuju stabilitas finansial'
+excerpt: "Di dunia yang serba cepat ini, mengelola keuangan dengan bijak merupakan kunci untuk mencapai kesejahteraan finansial. Aku dan teman-teman sering kali dihadapkan pada tantangan dalam mengatur uang, tetapi dengan beberapa tips sederhana, kita dapat mengambil langkah-langkah menuju stabilitas finansial"
 ---
 
 ## **Mengelola Keuangan dengan Bijak: Tips Sederhana untuk Meraih Kesejahteraan Finansial**

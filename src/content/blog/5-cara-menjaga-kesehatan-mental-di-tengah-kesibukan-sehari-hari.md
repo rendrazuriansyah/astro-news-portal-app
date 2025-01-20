@@ -1,11 +1,11 @@
 ---
-title: '5 Cara Menjaga Kesehatan Mental di Tengah Kesibukan Sehari-hari'
-publishedAt: '2024-01-01T00:00:00.050Z'
-author: 'Erika'
-image: 'https://images.unsplash.com/photo-1579208575657-c595a05383b7?q=80&w=2370&auto=format&fit=crop'
-category: 'Lifestyle'
+title: "5 Cara Menjaga Kesehatan Mental di Tengah Kesibukan Sehari-hari"
+publishedAt: "2024-01-01T00:00:00.050Z"
+author: "Rendra"
+image: "https://images.unsplash.com/photo-1579208575657-c595a05383b7?q=80&w=2370&auto=format&fit=crop"
+category: "Lifestyle"
 isPinned: false
-excerpt: 'Hidup di era modern seringkali membuat kita terjebak dalam kesibukan yang tak ada habisnya. Aku dan teman-teman sering merasakan betapa sulitnya menjaga kesehatan mental di tengah-tengah segudang tugas dan tekanan. Namun, ada beberapa cara sederhana yang bisa kita lakukan untuk tetap sehat secara mental'
+excerpt: "Hidup di era modern seringkali membuat kita terjebak dalam kesibukan yang tak ada habisnya. Aku dan teman-teman sering merasakan betapa sulitnya menjaga kesehatan mental di tengah-tengah segudang tugas dan tekanan. Namun, ada beberapa cara sederhana yang bisa kita lakukan untuk tetap sehat secara mental"
 ---
 
 ## **5 Cara Menjaga Kesehatan Mental di Tengah Kesibukan Sehari-hari**

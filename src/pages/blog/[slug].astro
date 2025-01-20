@@ -2,7 +2,7 @@
 import { Image } from "astro:assets";
 import MainLayout from "../../layouts/MainLayout.astro";
 import { getCollection } from "astro:content";
-import windahBatubara from "../../assets/windahBatubara.jpg";
+import Rendra from "../../assets/Rendra.jpg";
 import { getFormattedDate } from "../../utils/global";
 
 export const getStaticPaths = async() => {
@@ -15,7 +15,7 @@ export const getStaticPaths = async() => {
 };
 
 const { post } = Astro.props;
-const { Content } = await post.render();
+const { Content, remarkPluginFrontmatter } = await post.render();
 ---
 
 <MainLayout title={post.data.title}>
@@ -27,7 +27,7 @@ const { Content } = await post.render();
       </h1>
       <div class="meta">
         <div class="image">
-          <Image src={windahBatubara} alt='Author' />
+          <Image src={Rendra} alt='Author' />
         </div>
         <div class="text">
           <p>
@@ -38,6 +38,9 @@ const { Content } = await post.render();
             <time datetime={post.data.publishedAt}>
               {getFormattedDate(post.data.publishedAt)}
             </time>
+
+            <span>&bull;</span>
+            <p>{remarkPluginFrontmatter.minutesRead}</p>
           </div>
         </div>
       </div>
@@ -53,91 +56,77 @@ const { Content } = await post.render();
 </MainLayout>
 
 <style>
-  main {
-    display: grid;
-    grid-template-columns: repeat(1fr);
-    max-width: 64rem;
-    padding: 6rem 2rem;
-    background-color: #fff;
-    margin: 0 auto;
-  }
-
-  main .content-header {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    margin: 0 auto;
-  }
-
-  main .meta {
-    display: flex;
-    font-size: 0.875rem;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-  }
-
-  main .meta > div {
-    margin-right: 1rem;
-  }
-
-  main .meta .image {
-    width: 52px;
-    height: 52px;
-    aspect-ratio: 1/1;
-    overflow: hidden;
-    flex-shrink: 0;
-  }
-
-  main .meta .image img {
-    object-fit: cover;
-    width: 100%;
-    height: 100%;
-    border-radius: 9999px;
-  }
-
-  main .meta .text {
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-  }
-
-  main .meta .text p {
-    font-size: 1.25rem;
-    font-weight: 300;
-    margin-bottom: 0;
-  }
-
-  main .meta .text div:last-child {
-    display: flex;
-    color: #737373;
-  }
-
-  main .meta .text div:last-child span {
-    margin: 0 0.5rem;
-  }
-
-  main .content-header h1 {
-    max-width: 768px;
-  }
-
-  main .picture {
-    height: 500px;
-    border-radius: 0.5rem;
-  }
-
-  main .picture img {
-    width: 100%;
-    object-fit: cover;
-    height: 100%;
-    border-radius: 0.5rem;
-  }
-
-  main #disqus_thread {
-    margin-top: 4rem;
-  }
-
-  main .astro-social-share {
-    background-color: aqua;
-  }
+	main {
+		display: grid;
+		grid-template-columns: repeat(1fr);
+		max-width: 64rem;
+		padding: 6rem 2rem;
+		background-color: #fff;
+		margin: 0 auto;
+	}
+	main .content-header {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+		margin: 0 auto;
+	}
+	main .meta {
+		display: flex;
+		font-size: 0.875rem;
+		margin-top: 1rem;
+		margin-bottom: 1rem;
+	}
+	main .meta > div {
+		margin-right: 1rem;
+	}
+	main .meta .image {
+		width: 52px;
+		height: 52px;
+		aspect-ratio: 1 / 1;
+		overflow: hidden;
+		flex-shrink: 0;
+	}
+	main .meta .image img {
+		object-fit: cover;
+		width: 100%;
+		height: 100%;
+		border-radius: 9999px;
+	}
+	main .meta .text {
+		display: flex;
+		flex-direction: column;
+		align-items: start;
+	}
+	main .meta .text > p {
+		font-size: 1.25rem;
+		font-weight: 300;
+		margin-bottom: 0;
+	}
+	main .meta .text div:last-child {
+		display: flex;
+		color: #737373;
+	}
+	main .meta .text div:last-child span {
+		margin: 0 0.5rem;
+	}
+	main .content-header h1 {
+		max-width: 768px;
+	}
+	main .picture {
+		height: 500px;
+		border-radius: 0.5rem;
+	}
+	main .picture img {
+		width: 100%;
+		object-fit: cover;
+		height: 100%;
+		border-radius: 0.5rem;
+	}
+	main #disqus_thread {
+		margin-top: 4rem;
+	}
+	main .astro-social-share {
+		background-color: aqua;
+	}
 </style>

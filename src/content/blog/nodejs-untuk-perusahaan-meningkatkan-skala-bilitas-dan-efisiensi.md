@@ -1,11 +1,11 @@
 ---
-title: 'Node.js untuk Perusahaan: Meningkatkan Skalabilitas dan Efisiensi'
-publishedAt: '2024-02-28T00:00:00.050Z'
-author: 'Erika'
-image: 'https://images.unsplash.com/photo-1593720213428-28a5b9e94613'
-category: 'Programming'
+title: "Node.js untuk Perusahaan: Meningkatkan Skalabilitas dan Efisiensi"
+publishedAt: "2024-02-28T00:00:00.050Z"
+author: "Rendra"
+image: "https://images.unsplash.com/photo-1593720213428-28a5b9e94613"
+category: "Programming"
 isPinned: true
-excerpt: 'Node.js telah menjadi pilihan populer bagi banyak perusahaan dalam pengembangan aplikasi berbasis server-side. Tetapi, mengapa Node.js begitu diminati dan bagaimana ia bisa memberikan nilai tambah bagi perusahaan? Mari kita bahas lebih lanjut.'
+excerpt: "Node.js telah menjadi pilihan populer bagi banyak perusahaan dalam pengembangan aplikasi berbasis server-side. Tetapi, mengapa Node.js begitu diminati dan bagaimana ia bisa memberikan nilai tambah bagi perusahaan? Mari kita bahas lebih lanjut."
 ---
 
 Halo semuanya!

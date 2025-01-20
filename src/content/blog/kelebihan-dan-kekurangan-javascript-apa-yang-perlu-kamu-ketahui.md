@@ -1,11 +1,11 @@
 ---
-title: 'Kelebihan dan Kekurangan JavaScript: Apa yang Perlu Kamu Ketahui?'
-publishedAt: '2024-01-10T00:00:00.050Z'
-author: 'Erika'
-image: 'https://images.unsplash.com/photo-1618220179428-22790b461013?auto=format&fit=crop&w=927&h=927'
-category: 'Programming'
+title: "Kelebihan dan Kekurangan JavaScript: Apa yang Perlu Kamu Ketahui?"
+publishedAt: "2024-01-10T00:00:00.050Z"
+author: "Rendra"
+image: "https://images.unsplash.com/photo-1618220179428-22790b461013?auto=format&fit=crop&w=927&h=927"
+category: "Programming"
 isPinned: false
-excerpt: 'Halo semua! JavaScript, bahasa pemrograman yang telah menjadi tulang punggung pengembangan web modern. Tapi, seperti halnya teknologi lainnya, JavaScript juga memiliki kelebihan dan kekurangan yang perlu kita pahami. Mari kita bahas lebih lanjut.'
+excerpt: "Halo semua! JavaScript, bahasa pemrograman yang telah menjadi tulang punggung pengembangan web modern. Tapi, seperti halnya teknologi lainnya, JavaScript juga memiliki kelebihan dan kekurangan yang perlu kita pahami. Mari kita bahas lebih lanjut."
 ---
 
 Halo semua!

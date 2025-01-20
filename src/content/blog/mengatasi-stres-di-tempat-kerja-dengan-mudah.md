@@ -1,11 +1,11 @@
 ---
-title: 'Mengatasi Stres di Tempat Kerja dengan Mudah'
-publishedAt: '2024-01-12T00:00:00.050Z'
-author: 'Erika'
-image: 'https://plus.unsplash.com/premium_photo-1666299356798-11161c1e7989?q=80&w=2370&auto=format&fit=crop'
-category: 'Lifestyle'
+title: "Mengatasi Stres di Tempat Kerja dengan Mudah"
+publishedAt: "2024-01-12T00:00:00.050Z"
+author: "Rendra"
+image: "https://plus.unsplash.com/premium_photo-1666299356798-11161c1e7989?q=80&w=2370&auto=format&fit=crop"
+category: "Lifestyle"
 isPinned: false
-excerpt: 'Hari ini, banyak dari kita menghabiskan sebagian besar waktu di tempat kerja. Kadang-kadang, tekanan dan stres di tempat kerja dapat mempengaruhi kesejahteraan mental kita. Berikut adalah beberapa tips sederhana untuk mengatasi stres di tempat kerja'
+excerpt: "Hari ini, banyak dari kita menghabiskan sebagian besar waktu di tempat kerja. Kadang-kadang, tekanan dan stres di tempat kerja dapat mempengaruhi kesejahteraan mental kita. Berikut adalah beberapa tips sederhana untuk mengatasi stres di tempat kerja"
 ---
 
 ## **Mengatasi Stres di Tempat Kerja dengan Mudah**

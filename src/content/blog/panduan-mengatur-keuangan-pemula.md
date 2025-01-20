@@ -1,11 +1,11 @@
 ---
-title: 'Panduan Mudah Mengatur Keuangan untuk Pemula'
-publishedAt: '2024-02-20T00:00:00.050Z'
-author: 'Erika'
-image: 'https://images.unsplash.com/photo-1518458028785-8fbcd101ebb9?q=80&w=2370&auto=format&fit=crop'
-category: 'Finance'
+title: "Panduan Mudah Mengatur Keuangan untuk Pemula"
+publishedAt: "2024-02-20T00:00:00.050Z"
+author: "Rendra"
+image: "https://images.unsplash.com/photo-1518458028785-8fbcd101ebb9?q=80&w=2370&auto=format&fit=crop"
+category: "Finance"
 isPinned: false
-excerpt: 'Mengatur keuangan bisa terasa menakutkan bagi banyak orang, terutama bagi pemula. Namun, dengan langkah-langkah yang tepat, kita bisa memulai perjalanan menuju kesejahteraan finansial dengan lebih percaya diri. Berikut ini adalah panduan sederhana untuk membantu pemula mengelola keuangan mereka'
+excerpt: "Mengatur keuangan bisa terasa menakutkan bagi banyak orang, terutama bagi pemula. Namun, dengan langkah-langkah yang tepat, kita bisa memulai perjalanan menuju kesejahteraan finansial dengan lebih percaya diri. Berikut ini adalah panduan sederhana untuk membantu pemula mengelola keuangan mereka"
 ---
 
 ## **Panduan Mudah Mengatur Keuangan untuk Pemula**

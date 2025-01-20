@@ -1,11 +1,11 @@
 ---
-title: 'Pengenalan Astro Framework: Solusi Cepat untuk Pengembangan Web Modern'
-publishedAt: '2024-03-03T00:00:00.050Z'
-author: 'Erika'
-image: 'https://images.unsplash.com/photo-1627163439134-7a8c47e08208'
-category: 'Programming'
+title: "Pengenalan Astro Framework: Solusi Cepat untuk Pengembangan Web Modern"
+publishedAt: "2024-03-03T00:00:00.050Z"
+author: "Rendra"
+image: "https://images.unsplash.com/photo-1627163439134-7a8c47e08208"
+category: "Programming"
 isPinned: true
-excerpt: 'Jika Anda mencari solusi cepat dan efisien untuk pengembangan web modern, Astro Framework mungkin bisa menjadi pilihan yang tepat. Tetapi, apa sebenarnya Astro Framework dan apa yang membuatnya istimewa? Mari kita bahas lebih lanjut.'
+excerpt: "Jika Anda mencari solusi cepat dan efisien untuk pengembangan web modern, Astro Framework mungkin bisa menjadi pilihan yang tepat. Tetapi, apa sebenarnya Astro Framework dan apa yang membuatnya istimewa? Mari kita bahas lebih lanjut."
 ---
 
 Halo semua!

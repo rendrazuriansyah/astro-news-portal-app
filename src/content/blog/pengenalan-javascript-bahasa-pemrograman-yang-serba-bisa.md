@@ -1,11 +1,11 @@
 ---
-title: 'Pengenalan JavaScript: Bahasa Pemrograman yang Serba Bisa'
-publishedAt: '2024-04-28T00:00:00.050Z'
-author: 'Erika'
-image: 'https://images.unsplash.com/photo-1501747315-124a0eaca060?auto=format&fit=crop&w=987&h=987'
-category: 'Programming'
+title: "Pengenalan JavaScript: Bahasa Pemrograman yang Serba Bisa"
+publishedAt: "2024-04-28T00:00:00.050Z"
+author: "Rendra"
+image: "https://images.unsplash.com/photo-1501747315-124a0eaca060?auto=format&fit=crop&w=987&h=987"
+category: "Programming"
 isPinned: false
-excerpt: 'Siapa di sini yang pernah mendengar tentang JavaScript? Yup, itu dia, bahasa pemrograman yang serba bisa dan semakin populer di dunia teknologi. Tapi, bagi yang masih baru dalam dunia pemrograman, mungkin perlu sedikit pengenalan tentang apa itu JavaScript.'
+excerpt: "Siapa di sini yang pernah mendengar tentang JavaScript? Yup, itu dia, bahasa pemrograman yang serba bisa dan semakin populer di dunia teknologi. Tapi, bagi yang masih baru dalam dunia pemrograman, mungkin perlu sedikit pengenalan tentang apa itu JavaScript."
 ---
 
 Halo semua!
@@ -28,7 +28,7 @@ JavaScript telah menjadi bagian penting dalam pengembangan web modern. Dengan du
 
 ```javascript
 // Menampilkan pesan pop-up
-alert('Halo, dunia!')
+alert("Halo, dunia!");
 ```
 
 **Bagaimana Cara Memulai Belajar JavaScript?**
