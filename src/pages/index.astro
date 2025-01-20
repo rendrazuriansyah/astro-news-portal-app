@@ -1,15 +1,38 @@
 ---
+import { SEO } from "astro-seo";
 import { getCollection } from "astro:content";
-import MainLayout from "../layouts/MainLayout.astro";
 import Card from "../components/Card.astro";
+import MainLayout from "../layouts/MainLayout.astro";
 
 // getCollection
 const blogPosts = await getCollection("blog");
 // console.log(blogPosts);
 ---
 
-<MainLayout title="Homepage">
-	<h1>Homepage</h1>
+<MainLayout title="Home">
+	<SEO
+		slot='seo'
+		title="Astro News Portal - Your Source for Daily Updates"
+		description="Welcome to Astro News Portal - Your go-to destination for the latest updates on technology, programming, lifestyle, and valuable tips to enhance your career and life. Stay informed with our accurate and up-to-date information!"
+		twitter={{
+			creator: "@rendrazuriansyah",
+			card: "summary_large_image"
+		}}
+		openGraph={{
+			basic: {
+				type: "website",
+				title: "Astro News Portal - Your Source for Daily Updates",
+				image: "/thumbnailSEO.jpg",
+			},
+			image: {
+				alt: 'Thumbnail'
+			}
+		}}
+	/>
+
+
+
+	<!-- <h1>Homepage</h1> -->
 	
 	<!-- <h2>Slider Posts</h2>
 	<ul>

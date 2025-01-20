@@ -1,8 +1,9 @@
 ---
+import { SEO } from "astro-seo";
 import { Image } from "astro:assets";
-import MainLayout from "../../layouts/MainLayout.astro";
 import { getCollection } from "astro:content";
 import Rendra from "../../assets/Rendra.jpg";
+import MainLayout from "../../layouts/MainLayout.astro";
 import { getFormattedDate } from "../../utils/global";
 
 export const getStaticPaths = async() => {
@@ -19,6 +20,27 @@ const { Content, remarkPluginFrontmatter } = await post.render();
 ---
 
 <MainLayout title={post.data.title}>
+	<SEO
+		slot='seo'
+		title={post.data.title}
+		description={post.data.excerpt}
+		twitter={{
+			creator: "@rendrazuriansyah",
+			card: "summary_large_image",
+			image: post.data.image
+		}}
+		openGraph={{
+			basic: {
+				type: "website",
+				title: post.data.title,
+				image: post.data.image
+			},
+			image: {
+				alt: 'Thumbnail'
+			}
+		}}
+	/>
+
   <main class="mt-content">
     <div class="content-header">
       <h1>
