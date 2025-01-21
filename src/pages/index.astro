@@ -3,6 +3,7 @@ import { SEO } from "astro-seo";
 import { getCollection } from "astro:content";
 import Card from "../components/Card.astro";
 import MainLayout from "../layouts/MainLayout.astro";
+import Slider from "../components/Slider.astro";
 
 // getCollection
 const blogPosts = await getCollection("blog");
@@ -30,20 +31,9 @@ const blogPosts = await getCollection("blog");
 		}}
 	/>
 
-
-
-	<!-- <h1>Homepage</h1> -->
-	
-	<!-- <h2>Slider Posts</h2>
-	<ul>
-		{
-			blogPosts.filter((post) => post.data.isPinned).map((post) => (
-				<li>
-					<a href={`/blog/${post.slug}`}>{post.data.title}</a>
-				</li>
-			))
-		}
-	</ul> -->
+	<div style="margin-top: 56px">
+		<Slider posts={blogPosts.filter((post) => post.data.isPinned)} />
+	</div>
 
 	<main class="container mt-content">
 		<div class="row row-cols-1 row-cols-md-3 g-4">
